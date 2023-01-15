@@ -1,0 +1,81 @@
+.block{
+    width: 1660px;
+    height: 870px;
+   
+}
+
+.block-1{
+    float: left;
+    width: 237.5px;
+    height: 870px;
+    background: linear-gradient(to bottom,red,rgb(182, 143, 143));
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    
+}
+
+.block-2{
+    float: left;
+    width: 237px;
+    height: 870px;
+    background: linear-gradient(to bottom,rgb(0, 128, 255),rgb(182, 165, 219));
+    text-align: center ;
+    font-size: 150px;
+    color: white;
+}
+
+.block-3{
+    float: left;
+    width: 237px;
+    height: 870px;
+    background: linear-gradient(to bottom,rgb(154, 238, 238),rgb(214, 182, 147));
+    text-align: center ;
+    font-size: 150px;
+    color: white;
+}
+
+.block-4{
+    float: left;
+    width: 237px;
+    height: 870px;
+    background: linear-gradient(to bottom,rgb(55, 71, 63),rgb(142, 183, 149));
+    text-align: center ;
+    font-size: 150px;
+    color: white;
+}
+
+.block-5{
+    float: left;
+    width: 237px;
+    height: 870px;
+    background: linear-gradient(to bottom,rgb(168, 123, 172),rgb(182, 143, 143));
+    text-align: center ;
+    font-size: 150px;
+    color: white;
+}
+
+.block-6{
+    float: left;
+    width: 237px;
+    height: 870px;
+    background: linear-gradient(to bottom,rgb(124, 69, 107),rgb(123, 50, 50));
+    text-align: center ;
+    font-size: 150px;
+    color: white;
+}
+
+.block-7{
+    float: right;
+    width: 237.5px;
+    height: 870px;
+    background: linear-gradient(to bottom,rgb(81, 65, 65),rgb(182, 143, 143));
+    text-align: center ;
+    font-size: 150px;
+    color: white;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+

@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px ;
+}
+
+.wrapper{
+    width: 1680px;
+    height: 900px;  
+}
+
+.block-1{    
+    width: 1680px;
+    height: 60px;
+    background: rgb(223, 231, 232);
+    text-align: center;
+    font-size: 25px ;
+    color: rgb(130, 43, 43);
+}
+
+
+.block-2{
+    margin: 70px 95px ;
+    width: 700px;
+    height: 550px;
+    
+}
+
+.block-2_1{
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    background: url(./icon/Marvel/Marvel_Studios_logo.jpg) ;
+    background-size: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.block-2_2{
+    margin:60px 0px;
+    width: 150px;
+    height: 90px;
+    background: url(./icon/Marvel/Marvel_Studios_logo.jpg);
+    background-size: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.block-2_3{
+    margin:-150px 185px;
+    width: 150px;
+    height: 90px;
+    background: url(./icon/Marvel/Marvel_Studios_logo.jpg);
+    background-size: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.block-2_4{
+    margin: 60px 370px;
+    width: 150px;
+    height: 90px;
+    background: url(./icon/Marvel/Marvel_Studios_logo.jpg);
+    background-size: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.block-2_5{
+    margin: -150px 550px;
+    width: 150px;
+    height: 90px;
+    background: url(./icon/Marvel/Marvel_Studios_logo.jpg);
+    background-size: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    
+}
+
+.block-3_1{ 
+    margin:630px  1000px;
+    width: 600px ;
+    height: 50px;
+    text-align: justify;
+    /* letter-spacing: 2px; */
+    word-spacing: 3px;
+    line-height: 25px; 
+     
+}
+
+.block-3{
+    margin: -620px 1000px;
+    width: 600px;
+    height: 50px;
+    border-bottom: solid  red ;
+    font-size: 25px
+
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(./font/Roboto/Roboto-Regular.ttf);
+}
+
+h1{
+   font-family: 'Roboto'
+}
+
+
+
+@font-face {
+    font-family: Poppins;
+    src: url(./font/Poppins/Poppins-ExtraLight.ttf);
+
+}
+
+h3{
+    font-family:'Poppins'
+}
+
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+

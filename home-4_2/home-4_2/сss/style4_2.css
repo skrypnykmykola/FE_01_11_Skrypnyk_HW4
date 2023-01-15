@@ -1,0 +1,187 @@
+.block{
+    width: 1650px;
+    height: 900px;
+    background: linear-gradient(to bottom,rgb(239, 241, 243),rgb(193, 207, 221));
+}
+
+.menu{
+    width: 1650px;
+    height: 70px;
+    background: white;   
+    text-align: center;   
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./font/Poppins/Poppins-Regular.ttf);   
+}
+
+
+h1{
+    font-family:'Poppins';  
+} 
+
+.menu-1{
+    width: 150px;
+    height: auto;
+    float: left; 
+    font-size: 14px;
+    cursor: pointer;
+    transition: 1s;    
+}
+
+.menu-1:hover{
+    background:rgb(236, 239, 240) ;
+    box-shadow: 7px 7px rgba(11, 11, 11, 0.657); 
+    border-radius: 3px;
+    transform: translate(15%)     
+}
+
+.menu-2{
+    width: 800px;
+    height: 70px; 
+    float: left;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 15px;
+}
+
+.menu-2:hover{
+    background:rgb(236, 239, 240) ;
+    box-shadow:  7px 7px rgba(11, 11, 11, 0.657);
+    text-align: center;
+    border-radius: 3px;
+    color: rgb(145, 54, 81);
+    transform: translate(1%) 
+}
+ 
+.menu-3{
+    width: 150px;
+    height: auto;
+    float: left;
+    transition: 1s;
+    cursor: pointer;    
+}
+
+.menu-3:hover{
+    background:rgb(236, 239, 240) ;
+    box-shadow:  7px 7px rgba(11, 11, 11, 0.657);
+    text-align: center;
+    border-radius: 3px;
+    color: rgb(145, 54, 81);
+    transform: translate(10%) 
+    
+}
+ 
+#dropdown{
+    position: relative;
+    display: inline-block;
+   
+    
+}
+
+#dropdown-content{
+    display: none;
+    position: absolute;
+    background: rgb(235, 237, 240);
+    width: 150px;
+    height: 80px;
+    box-shadow:  7px 7px rgba(11, 11, 11, 0.657);
+    
+}
+
+#dropdown:hover .dropdown-content{
+    display: block;
+    text-align: center;  
+    
+} 
+
+.menu-4{
+    width: 145px;
+    height: auto;
+    float: left;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.menu-4:hover{
+    background:rgb(236, 239, 240) ;
+    box-shadow: 7px 7px rgba(11, 11, 11, 0.657);
+    border-radius: 3px;
+    transform: scale(1.2);
+    color: rgb(145, 54, 81);
+    transform: translate(10%)     
+}
+
+.menu-5{
+    width: 145px;
+    height: auto;
+    float: left;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.menu-5:hover{
+    background:rgb(236, 239, 240) ;
+    box-shadow: 7px 7px rgba(11, 11, 11, 0.657);
+    border-radius: 3px;
+    color: rgb(145, 54, 81);
+    transform: translate(10%) 
+}
+
+
+.menu-6{
+    width: 150px;
+    height: auto;
+    float: left;
+    cursor: pointer;
+    font-size: small;
+    transition: 1s;
+}
+
+.menu-6:hover{
+    background:rgb(236, 239, 240) ;
+    box-shadow: 7px 7px rgba(11, 11, 11, 0.657); 
+    border-radius: 3px;
+    color: rgb(145, 54, 81);
+    transform: translate(10%) 
+}
+
+.dropbtn{
+    background: rgb(236, 239, 240) ;
+    margin: -12px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 7px 7px rgba(11, 11, 11, 0.657);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color:#0e0d0d ;
+    padding: 12px 16px;
+    text-decoration:none;
+    display: block;   
+}
+
+.dropdown-content a:hover{
+    background-color:rgb(236, 239, 240) ;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    border-radius: 3px;
+}
+
